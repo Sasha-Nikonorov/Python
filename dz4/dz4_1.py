@@ -4,6 +4,6 @@
 
 import random
 
-d = input('Введите число d c заданной точност: ').count("0")
+d = input('Введите число d c заданной точностью: ').count("0")
 number = random.uniform(0, 10.0)
 print(f'Число с заданной точностью {d} знаков после запятой - {round(number, d)}')
